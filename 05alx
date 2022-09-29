@@ -1,7 +1,6 @@
 #!/bin/bash
 
-ALA="ma kota"
+echo "Podaj imie:"
+read imie
+echo "Podales: "  $imie
 
-echo "Ala ma  $ALA"
-echo "Ala ma"  $ALA
-echo "Ala ma  ${ALA}"
