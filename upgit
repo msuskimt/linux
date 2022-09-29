@@ -2,6 +2,7 @@
 
 
 git add --all
-git commit -m "nowy skrypt $(date +%F_%H_%M)"
+#git commit -m "nowy skrypt $(date +%F_%H_%M)"
+git commit -m "$1"
 git push
 
