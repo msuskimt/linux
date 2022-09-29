@@ -4,7 +4,7 @@ echo -n "Podaj katalog to utworzenia: "
 read katalog
 echo "Tworzenie katalogu"
 mkdir "$katalog"
-cd "$katalog" 
-date > test.txt
+
+date > "$katalog/test.txt"
 
 
