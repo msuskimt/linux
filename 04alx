@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ALA="ma kota"
+
+echo "Ala ma  $ALA"
+echo "Ala ma"  $ALA
+echo "Ala ma  ${ALA}"
