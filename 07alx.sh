@@ -7,3 +7,4 @@ echo "Parametr 1: $3"
 echo "Parametr 1: $4"
 
 echo "lacznie par $#"
+echo "parametr zerowy $0"
