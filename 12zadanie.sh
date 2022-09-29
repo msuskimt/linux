@@ -7,11 +7,11 @@ read -p "Podaj rok urodzenia: " ROK
 
 WIEK="$((DATA - ROK))"
 
-if test $WIEK -gt $PELNY
+if [ $WIEK -ge $PELNY ]
 then
 	echo "Jesteś pełnoletni"
 else
-	echo "nie jestes, będziesz za $((PELNY - WIEK )) bedzie to rok $((DATA + WIEK))"
+	echo "Nie jestes pelnoletni, będziesz za $((PELNY - WIEK )) lat, bedzie to rok: $((DATA + PELNY -WIEK))"
 fi
 
 
