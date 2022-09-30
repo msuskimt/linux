@@ -1,0 +1,3 @@
+#!/bin/bash
+#wyswietla date
+echo "Dzisiaj jest $(date +%F)"

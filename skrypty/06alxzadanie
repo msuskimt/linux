@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -n "Podaj katalog to utworzenia: "
+read katalog
+echo "Tworzenie katalogu"
+mkdir "$katalog"
+
+date > "$katalog/test.txt"
+
+
