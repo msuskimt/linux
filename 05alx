@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Podaj imie:"
-read imie
-echo "Podales: "  $imie
-
