@@ -49,6 +49,11 @@ who(){
 }
 
 for i in `seq 1 5`; do
+	if [ "$i" == 2 ] 
+	then
+		continue
+	fi
+
 	echo "Twoja liczba to: $i"
 done
 
