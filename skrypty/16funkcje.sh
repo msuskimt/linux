@@ -48,7 +48,18 @@ who(){
 	echo -e "Logged as: \033[31m `whoami`\e[m"
 }
 
+for i in `seq 1 5`; do
+	echo "Twoja liczba to: $i"
+done
 
-
+godzina(){
+	echo "Ctrl+C to stop" 
+for ((i2i=0; i2<4; i2++)) 
+do
+	echo "Czas aktualny w sekndach: `date +%H:%M:%S`"
+	sleep 2
+done
+}
 hello
 who
+godzina
