@@ -1,0 +1,3 @@
+#ssh -v -X -L 1234:localhost:631 10.0.13.204
+#             ^local         ^zdalna usluga
+
