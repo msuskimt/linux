@@ -1,0 +1,7 @@
+ssh-add
+ssh-add -l
+cat .ssh/id_ed25519.pub
+key to remote machine >>>>
+~/.ssh/authorized_keys 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBUhngDvYFTyk8mU2RTIJDJSYAi3cW4sLCJjhAuKshtY kurs@centos00
+
